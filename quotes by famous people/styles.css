@@ -1,0 +1,45 @@
+*{
+    font-family:cursive;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.container{
+    min-width: 100vb;
+    padding:2rem;
+    border:2px solid black;
+    background-color: white;
+    text-align: center;
+    flex: 0 0 60%;
+}
+
+#button{
+    height:50px;
+    width:300px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color:burlywood;
+}
+
+#button:hover{
+    background: black;
+    color: white;
+}
+
+blockquote{
+    background:whitesmoke;
+    border-left: 15px solid bisque;
+    padding:0.5rem;
+}
+
+#person{
+    color:orange;
+    font-weight:bolder;
+}
